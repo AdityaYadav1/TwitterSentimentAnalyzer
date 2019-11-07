@@ -22,12 +22,13 @@ The [live](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html) Demo of Stanfod
 
 2. Set the build path which must have the following libraries 
 
- * stanford-corenlp-3.8.0
+ * stanford-corenlp-3.9.2
  * ejml-0.23
- * stanford-corenlp-3.8.0-models
+ * stanford-corenlp-3.9.2-models
+ * twitter4J-core-4.0.7
 
 ```
-Note: The stanford-corenlp-3.8.0-models has all the trained models. It is not set in the build path of this project due to size constraint. 
+Note: The stanford-corenlp-3.9.2-models has all the trained models. It is not set in the build path of this project due to size constraint. 
 Download the jar file from Stanford NLP site
 ```
 3. Run the MainApp.java file
